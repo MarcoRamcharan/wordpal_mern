@@ -1,0 +1,27 @@
+.result{
+    background-color: dodgerblue;
+}
+
+.wordAndPos{
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid dodgerblue;
+}
+
+.audio{
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid dodgerblue;
+}
+
+
+.definitions{
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid dodgerblue;
+}
+
+.examples{
+    padding: 20px;
+    background-color: white;
+}

@@ -1,0 +1,41 @@
+.userWords{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+
+.userWords button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.userWords .result{
+    background-color: white;
+    padding: 5px;
+}
+
+.wordslist{
+    padding: 5px;
+    min-height: 80vh;
+}
+
+.userWordLoading{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userWordError{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noWords{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

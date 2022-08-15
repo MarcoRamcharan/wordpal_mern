@@ -1,0 +1,50 @@
+.firstpage{
+    height: 100vh;
+    background-color: slateblue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    border: 10px solid white;
+}
+
+.firstpage .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstpage .banner h1{
+    font-size: 100px;
+    color: snow;
+}
+
+.firstpage .banner p{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.firstpage .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+.firstpage .links a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding:14px 50px;
+    margin: 20px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.firstpage .links a:hover{
+    border: 2px solid white;
+}
+
+

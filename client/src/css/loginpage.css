@@ -1,0 +1,71 @@
+.loginpage{
+    height: 100vh;
+    background-color: slateblue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 10px solid white;
+}
+
+.loginpage .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginpage .banner h1{
+    font-size: 100px;
+    color: snow;
+}
+
+.loginpage .banner p{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.loginpage .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+.loginpage .input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginpage .input-group input{
+    border: none;
+    height: 40px;
+    width: 650px;
+    background-color: dodgerblue;
+    border-bottom: 2px solid white;
+    font-size: 25px;
+    color: white;
+}
+
+.loginpage .input-group input:focus{
+    outline: none;
+}
+
+.loginpage .input-group h2{
+    background-color: dodgerblue;
+    padding: 10px;
+    color: indigo;
+    font-size: 30px;
+}
+
+.loginpage button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: indigo;
+    margin:10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}

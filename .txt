@@ -1,0 +1,2 @@
+rmdir /S .git
+remove a git file from cmd

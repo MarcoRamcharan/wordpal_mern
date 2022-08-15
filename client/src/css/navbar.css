@@ -1,0 +1,22 @@
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 2px solid white;
+}
+
+nav div a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width: 600px){
+    .link{
+        display: none;
+    }
+}

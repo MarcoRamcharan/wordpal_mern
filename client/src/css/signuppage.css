@@ -1,0 +1,71 @@
+.signuppage{
+    height: 100vh;
+    background-color: slateblue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 10px solid white;
+}
+
+.signuppage .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signuppage .banner h1{
+    font-size: 100px;
+    color: snow;
+}
+
+.signuppage .banner p{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.signuppage .signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+.signuppage .input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.signuppage .input-group input{
+    border: none;
+    height: 40px;
+    width: 650px;
+    background-color: dodgerblue;
+    border-bottom: 2px solid white;
+    font-size: 25px;
+    color: white;
+}
+
+.signuppage .input-group input:focus{
+    outline: none;
+}
+
+.signuppage .input-group h2{
+    background-color: dodgerblue;
+    padding: 10px;
+    color: indigo;
+    font-size: 30px;
+}
+
+.signuppage button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: indigo;
+    margin:10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}

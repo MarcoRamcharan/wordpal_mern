@@ -1,0 +1,9 @@
+footer{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid white;
+    color: white;
+}
