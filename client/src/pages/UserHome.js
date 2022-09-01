@@ -47,7 +47,7 @@ function UserHome() {
             setSaveWordMessage('cant save a word that doesnt exist')
         }
         if(response){
-              const res = await fetch('/api/word/add', {
+              const res = await fetch('https://wordpal.herokuapp.com/api/word/add', {
               method: 'POST',
               headers: {
                 'Content-Type' : 'application/json',
