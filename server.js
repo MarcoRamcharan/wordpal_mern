@@ -35,4 +35,4 @@ app.get('*', function(_, res){
 app.listen(process.env.PORT || 5000, ()=>{
     console.log('server running')
 })
-
+process.env.PORT || 5000

@@ -20,7 +20,7 @@ const UserWords = () => {
   const getWords = useCallback(async () =>{
     try{
       setLoading(true)
-        const res = await fetch('/api/word',{
+        const res = await fetch('https://wordpal.herokuapp.com/api/word',{
           method: 'GET',
           headers: {'Authorization': `Bearer ${user.token}`},
       })
@@ -59,7 +59,7 @@ useEffect(()=>{
 const deleteWord = async (e, id) =>{
   e.preventDefault()
   try{
-    const res = await fetch(`/api/word/${id}`, {
+    const res = await fetch(`https://wordpal.herokuapp.com/api/word/${id}`, {
       method: 'DELETE',
       headers:{
         'Authorization' : `Bearer ${user.token}`

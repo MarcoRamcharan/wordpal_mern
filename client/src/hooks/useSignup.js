@@ -12,7 +12,7 @@ export const useSignup = () =>{
     const signup = async(email,password) =>{
         setIsLoading(true)
         setError(null)
-        const response = await fetch('/api/user/add', {
+        const response = await fetch('https://wordpal.herokuapp.com/api/user/add', {
             method : 'POST',
             headers: {
                 'Content-Type' : 'application/json'
