@@ -1,2 +1,28 @@
 rmdir /S .git
 remove a git file from cmd
+
+
+
+const docs = await Character.find({
+    age: { $gte: 29 },
+    rank: 'Commander'
+  });
+
+
+  User.find({ name: 'Punit'}, {age:0}, function (err, docs) {
+    if (err){
+        console.log(err);
+    }
+
+
+    const user = await User.find;
+
+
+
+
+    router.get('/admin', function (req, res) {
+        User.findOne({_id: req.user._id, admin: true}, function (err, user) {
+            if (err) return next(err);
+            res.render('admin', {user: user});
+        });
+        });

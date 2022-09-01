@@ -13,10 +13,13 @@ const addWord = async (req, res) =>{
         if(!word){
             throw Error('please provide a word')
         }
-        const exists = await Word.findOne({word})
+
+        const exists = await Word.findOne(({user_id: user_id, word: word}))
         if(exists){
             throw Error('word already added')
         }
+
+
         const newWord = await Word.create({word, user_id})
         res.status(200).json({newWord, message: 'word saved'})
 
@@ -26,6 +29,8 @@ const addWord = async (req, res) =>{
         res.status(400).json({error: error.message})
     }
 }
+
+
 
 
 //delete a word
